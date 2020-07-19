@@ -1,0 +1,40 @@
+
+.headerImg{
+    width:100%;
+}
+.headerImg img{
+    width: 100%;
+    display: block;
+}
+.headerText{
+    width:100%;
+    margin-top: -9%;
+}
+nav a{
+    padding:15px;
+    padding-bottom:4px;
+    border-bottom:2px solid white;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    
+}
+nav a:hover { 
+    border-bottom:2px solid white;
+    color:#00b3b3;
+    font-size: 2em;
+    transition: .9s;
+    position: relative;
+}
+body {
+    background-image:url("../img/sky.jpg");
+    background-repeat: repeat;
+    text-align: center;
+    color:white;
+    width: 100vw;
+    height:100%;
+    font-family: Arial;
+    margin: 0 auto;
+    padding-bottom: 40%;
+}
